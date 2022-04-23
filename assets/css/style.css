@@ -1,0 +1,77 @@
+@font-face {
+    font-family: robotoLight;
+    src: url(../font/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: robotoMedium;
+    src: url(../font/Roboto-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {    
+    background-image: url(../img/pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+header {
+    font-family: robotoMedium;
+    margin-bottom: 7%;
+    height: 13vh;
+}
+
+.navbar-color {
+    background-color: #000;
+}
+
+.nav-brand {
+    color: #FFF;
+    font-size:100%;
+}
+
+
+li a, .card-btn, .nav-brand {
+    text-decoration: none;
+}
+
+section {
+    font-family: robotoLight;
+}
+
+
+
+.card-img-top {
+    height: 39vh;
+    
+}
+
+form {
+    border-radius: 10px;
+    font-family: robotoMedium;
+}
+
+::placeholder {
+    padding-left: 3%;
+}
+
+input[type=text], input[type=email] {
+    border-radius: 10px;
+    padding: 2px 0px 1px 0px;
+}
+
+
+
+footer {
+    height: 10vh;
+    border-radius: 10px 10px 0px 0px;
+    font-family: robotoMedium;
+}

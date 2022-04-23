@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 userscalable=no">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="icon" href="assets/img/favicon-16x16.png" type="image/x-icon">
+        <link rel="stylesheet" href="assets/Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/icon/iconCss/all.min.css">
+        <title>Bootstrap</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+
+            <header class="row sticky-top">
+                <nav class="navbar navbar-expand-sm navbar-dark navbar-color">
+
+                    <a href="#" class="nav-brand">
+                        <img src="assets/img/finland.jpg" alt="nav logo" width="90" height="40" 
+                        class="d-inline-block d-sm-inline-block d-md-inline-block pe-3">Visita Finlandia
+                    </a>
+
+                    <button
+
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainMenu"
+                    aria-controls="mainMenu"
+                    aria-expanded="false"
+                    aria-label="Menu desplegable"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="mainMenu">
+
+                        <ul class="navbar-nav ms-auto text-end">
+
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Lappeenranta</a>
+                            </li>
+
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Rovamiemi</a>
+                            </li>
+
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Oulu</a>
+                            </li>
+
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Helsinki</a>
+                            </li>
+
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Savonlinna</a>
+                            </li>
+
+                            <li class="navbar-item">
+                                <a href="#" class="nav-link">Tampere</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <section class="row g-0 justify-content-center gy-5">
+
+
+                <div class="card col-12 col-sm-3 m-sm-3 m-md-4">
+                    <img src="assets/img/lappeeranta.jpg" alt="Lappeenranta city" class="card-img-top">
+                    <div class="card-body">
+                        
+                            
+                        <h3 class="card-title">Lappeenranta</h3>
+                        <hr>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="card-text d-inline-block ps-4">Saima</p>
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="card col-12 col-sm-3 m-sm-3 m-md-4">
+                    <img src="assets/img/rovaniemi.jpg" alt="Joulupukki Village" class="card-img-top">
+                    <div class="card-body">
+                        
+                        <h3 class="card-title">Rovaniemi</h3>
+                        <hr>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="card-text d-inline-block ps-4">Laponia</p>
+                        
+                         
+                    </div>
+                </div>
+
+                <div class="card col-12 col-sm-3 m-sm-3 m-md-4">
+                    <img src="assets/img/oulu.jpg" alt="Oulu city" class="card-img-top">
+                    <div class="card-body">
+                        
+                        <h3 class='card-title'>Oulu</h3> 
+                        <hr>                     
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="card-text d-inline-block ps-4">Ostrobotnia</p>
+                        
+                        
+                    </div>
+                </div>
+
+
+                <div class="card col-12 col-sm-3 m-sm-3 m-md-4">
+                    <img src="assets/img/helsinki.jpg" alt="Catedral Helsinki" class="card-img-top">
+                    <div class="card-body">
+                        
+                        <h3 class="card-title">Helsinki</h3> 
+                        <hr>                
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="card-text d-inline-block ps-4">Uusimaa</p>
+                        
+                                             
+                    </div>
+                </div>
+
+
+                <div class="card col-12 col-sm-3 m-sm-3 m-md-4">
+                    <img src="assets/img/savonlinna.jpg" alt="Savonlinnna castle" class="card-img-top">
+                    <div class="card-body">
+
+                        <h3 class="card-title">Savonlinna</h3>
+                        <hr>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="card-text d-inline-block ps-4">Saimaa</p>
+                                               
+                        
+                    </div>
+                </div>
+
+                <div class="card col-12 col-sm-3 m-sm-3 m-md-4">
+                    <img src="assets/img/tampere.jpg" alt="Tampere stadium" class="card-img-top">
+                    <div class="card-body">
+                        
+                        <h3 class="card-title">Tampere</h3>
+                        <hr>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="card-text d-inline-block ps-4">Pirkanmaa</p>
+                        
+                        
+                       
+                    </div>
+                </div>
+
+                
+               
+            </section>
+
+            <form action="post" class="bg-dark py-4 w-75 mt-5 mx-auto">
+                <legend class="text-white text-center">Ingresa tu nombre y correo para notificaciones</legend>
+                <input type="text" class="d-block col-8 mx-auto mb-4" placeholder="Nombre">
+                <input type="email"  class="d-block col-8 mx-auto" placeholder="Email">
+                <button class="btn btn-primary d-block mx-auto mt-3" type="submit"> ENVIAR</button>
+            </form>
+
+            <footer class="bg-warning mt-5">
+                <p class="text-black text-center font-weight-bold h5 pt-3">
+                    Bootstrap class desafioLatam Alejandro &copy;
+                </p>
+            </footer>
+
+        </div>
+
+        <script src="assets/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
